@@ -1,3 +1,4 @@
+[![Mocha CI  | © 2024 by anh tú](https://github.com/anhtu2808/TestingWithMocha/actions/workflows/ci-script-with-mocha.yml/badge.svg)](https://github.com/anhtu2808/TestingWithMocha/actions/workflows/ci-script-with-mocha.yml)
 # Testing With Mocha and Chai
 
 ## 1. How to setup Mocha and Chai
