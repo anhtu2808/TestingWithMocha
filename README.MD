@@ -34,7 +34,7 @@ project/
 
 ```
 
-## 2. How to use my sample project
+## 3. How to use my sample project
 ### 1. Clone Repository
 
 ```bash
