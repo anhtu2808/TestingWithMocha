@@ -23,6 +23,11 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
+      - name: Start server  # Khởi động server từ thư mục "server"
+        run: |
+          nohup node server/server.js &  # Chạy server.js ở chế độ nền
+          sleep 5  # Đợi 5 giây để server khởi động hoàn toàn
+
       - name: Install dependencies
         run: npm install
 
