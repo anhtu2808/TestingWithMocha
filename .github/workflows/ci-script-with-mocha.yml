@@ -12,7 +12,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14, 16, 18]  # Chọn phiên bản Node.js cần kiểm thử
+        node-version: [18.20.4]  # Chọn phiên bản Node.js cần kiểm thử
 
     steps:
       - name: Checkout repository
