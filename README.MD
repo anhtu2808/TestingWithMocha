@@ -1,26 +1,38 @@
 [![Mocha CI  | © 2024 by anh tú](https://github.com/anhtu2808/TestingWithMocha/actions/workflows/ci-script-with-mocha.yml/badge.svg)](https://github.com/anhtu2808/TestingWithMocha/actions/workflows/ci-script-with-mocha.yml)
+
 # Testing With Mocha and Chai
 
 ## 1. How to setup Mocha and Chai
 
 ### Install mocha
+
 ```bash
-npm install -g mocha
+npm install --save-dev mocha
 ```
 
 ### Install chai
+
 ```bash
-npm install --save chai
+npm install --save-dev chai
 ```
+
+### Install chai-http (for API test)
+
+```bash
+npm install chai-http
+```
+
 ### Setup package.json
 
 Add script to run test
+
 ```json
 "scripts": {
     "test": "mocha"
 }
 "type": "module"
 ```
+
 ## 2. Structure of project
 
 ```
@@ -36,11 +48,13 @@ project/
 ```
 
 ## 3. How to use my sample project
+
 ### 1. Clone Repository
 
 ```bash
 git clone https://github.com/anhtu2808/TestingWithMocha.git
 ```
+
 ### 2. Install dependencies
 
 ```bash
@@ -55,13 +69,15 @@ node server.js
 ```
 
 ### 4. Run Test
+
 Open another terminal and run command
+
 ```bash
 npm test
 ```
+
 Or you can run specific test file
+
 ```bash
 npm test -- test/YOUR_TEST_FILE.test.js
 ```
-
-
